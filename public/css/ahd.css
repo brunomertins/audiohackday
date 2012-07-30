@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Audio Hack Day
+   ========================================================================== */
+
+/* Layout
+   ========================================================================== */
+
+.l-container {
+  width: 610px;
+  margin: 0 auto;
+}
+
+/* Defaults
+   ========================================================================== */
+
+h1 {
+  margin-bottom: 0;
+  font-size: 54px;
+  line-height: 1.1em;
+}
+
+h1 .sc-type-light {
+  font-size: 0.5em;
+  line-height: 1.1em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1.1em;
+}
+
+h3 {
+  margin: 0 0 18px 0;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Page Elements
+   ========================================================================== */
+
+.header {
+  background: url('../img/background.png') no-repeat center top;
+  height: 410px;
+  margin-top: 40px;
+}
+.header__inner {
+  padding: 15px 0 0 120px;
+}
+.footer {
+  margin-bottom: 40px;
+}
+.section {
+  margin: 40px 0 0 0;
+  padding: 0 0 40px 0;
+  clear: both;
+}
+
+/* Helpers
+   ========================================================================== */
+
+.img-left {
+  float: left;
+  margin-right: 20px;
+}
