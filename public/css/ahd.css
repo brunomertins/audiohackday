@@ -68,7 +68,7 @@ label {
   font-weight: 100;
 }
 
-input, textarea {
+input, textarea, select {
   border-radius: 5px;
   width: 100%;
   font-size: 14px;
