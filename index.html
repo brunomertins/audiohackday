@@ -6,7 +6,7 @@
   <meta property="og:title" content="Audio Hack Day" />
   <meta property="og:url" content="http://todo/" />
   <meta property="og:image" content="http://todo" />
-  <link rel="stylesheet" href="http://soundcloud.github.com/sc.css/sc.css">
+  <link rel="stylesheet" href="public/css/sc.css">
   <link rel="stylesheet" href="public/css/ahd.css">
 </head>
 <body>
@@ -21,19 +21,69 @@
   </div>
 
   <div id="content" class="l-container sc-font">
-    <div class="section sc-border-dark-bottom sc-text">
+    <div class="section sc-border-dark-bottom sc-type-large">
       <p>Campus Party Europe is taking over Berlin Tempelhof for seven days of tech, hacking and well-supervised craziness. SoundCloud is excited to be joining Campus Party Europe on August 23rd for a special Audio Hack Day hackathon.</p>
       <p>AHD is a 24-hour hack event where people of all different backgrounds, be it developer, designer or just someone with a good idea, come together to hack together the coolest, most innovative, funniest, or strangest audio app possible.</p>
     </div>
 
+
     <div class="section sc-border-dark-bottom sc-clearfix">
+      <h3>RSVP, PLS</h3>
+
+      <p class="sc-font-body sc-type-light">Plan on Hacking something? Sign up so we can save you a seat and keep you up to date! Not attending Campus Party? If you have a great idea, we might be able to find you a ticket or two.</p>
+
+      <form method="post" action="https://docs.google.com/a/soundcloud.com/spreadsheet/formResponse?formkey=dEVBT196Y1YwX0xNWW9uLXNhUUlxcHc6MQ">
+        <div>
+          <div class="l-grid l-grid-half">
+            <label for="name">Name*</label><br>
+            <input type="text" name="entry.0.single" id="name" />
+          </div>
+          <div class="l-grid l-grid-half">
+            <label for="email">E-mail*</label><br>
+            <input type="text" name="entry.6.single" id="email" />
+          </div>
+        </div>
+
+        <div>
+          <div class="l-grid l-grid-half">
+            <label for="location">Location*</label><br>
+            <input type="text" name="entry.4.single" id="location" />
+          </div>
+          <div class="l-grid l-grid-half">
+            <label for="role">Role</label><br>
+            <input type="text" name="entry.2.group" id="role" />
+          </div>
+        </div>
+
+        <div class="l-grid l-grid-full">
+          <label for="website">Website</label><br>
+          <input type="text" name="entry.1.single" id="website" />
+        </div>
+
+        <div class="l-grid l-grid-full">
+          <label for="idea">Idea</label><br>
+          <textarea name="entry.8.single" id="idea"></textarea>
+        </div>
+
+        <div class="l-grid l-grid-full">
+          <input type="checkbox" name="registered" id="registered" /> <label for="registered">I’m already registered for Campus Party EU*</label>
+        </div>
+
+        <div class="l-grid l-grid-full">
+          <button type="submit" class="sc-button sc-button-large submit">Sign me up!</button>
+        </div>
+      </form>
+
+    </div>
+
+    <div class="section sc-border-dark-bottom sc-clearfix sc-type-large">
       <img src="public/img/reykjavik.png" width="295" height="180" class="img-left" />
       <h3>Hack your way to<br> Music Hack Day Iceland</h3>
 
       <p>The best hack using the SoundCloud API will win a flight to Music Hack Day in Reykjavik.</p>
     </div>
 
-    <div class="section">
+    <div class="section sc-type-large">
       <p>More API presentations and prizes will be announced. Watch this space for updates. For more information on Audio Hack day at Campus Party, drop us a line at <a href="mailto:ahd@soundcloud.com">ahd@soundcloud.com</a></p>
     </div>
   </div>
